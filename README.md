@@ -17,11 +17,10 @@ It also works if a string is shared by different source files.
 The code needs to identify a specific string in weblate code. So it currently works if you use the english, french, german or italian interface of weblate, but it could be extended to other languages.
 
 To install : 
-- add the bookmarklet in your browser :
--- display the js file in raw mode (https://raw.githubusercontent.com/msaby/koha-translate-bookmarklet/main/koha-translate-bookmarklet.js)
--- copy it to clipboard (Ctrl A > Ctrl C)
--- create a bookmark in your browser, give it a proper name like "Weblate bookmarklet", and make it visible from the bookmarks toolbar
--- edit the bookmark and paste the content of the clipboard (Ctrl V)
+- display the js file in raw mode (https://raw.githubusercontent.com/msaby/koha-translate-bookmarklet/main/koha-translate-bookmarklet.js)
+- copy it to clipboard (Ctrl A > Ctrl C)
+- create a bookmark in your browser, give it a proper name like "Weblate bookmarklet", and make it visible from the bookmarks toolbar
+- edit the bookmark and paste the content of the clipboard (Ctrl V)
 
 To use:
 - click on the bookmarklet when you reach a page of https://translate.koha-community.org/ dedicated to a specific string
