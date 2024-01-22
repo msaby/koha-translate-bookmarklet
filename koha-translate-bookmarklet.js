@@ -22,8 +22,7 @@ function()
       'en-GB' : 'Source string location',
       'fr' : 'Emplacement de la chaîne source',
       'de' : 'Ort der Ausgangszeichenkette',
-      'it' : 'Posizione stringa sorgente'
-'};
+      'it' : 'Posizione stringa sorgente'};
     str_locale ["message1"] = {
       'en' : "Go to translate.koha-community.org before activating this bookmarklet!",
       'en-GB' : "Go to translate.koha-community.org before activating this bookmarklet!",
