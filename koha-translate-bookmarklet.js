@@ -43,7 +43,7 @@ function()
       'it' : "Nessun file identificato!"};
     return str_locale [str][locale] ;
   }
-  const navigator_language = (navigator.language || navigator.userLanguage).substr(0, 2)
+  const navigator_language = (navigator.language || navigator.userLanguage).substr(0, 2);
   if (window.location.hostname !== 'translate.koha-community.org') {
     alert(_("message1", navigator_language ));
     return;}
