@@ -60,7 +60,7 @@ function()
     alert (_("message2", weblate_locale));
     return;
   }
-  const koha_version = (is_koha_manual_project || koha_version_match[1] == "master") ? "master" : koha_version_match[1] + ".x";
+  const koha_version = (is_koha_manual_project || koha_version_match[1] == "main") ? "main" : koha_version_match[1] + ".x";
   const h5_source_string_description = [...document.querySelectorAll("div.panel.panel-default.string-info div.list-group-item > h5")].find(el => el.innerText === _("source_string_location", weblate_locale));
   if (!h5_source_string_description){
     alert(_("message3", weblate_locale));
